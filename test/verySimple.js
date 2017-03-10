@@ -6,10 +6,10 @@ var Nemo = require('nemo'),
   util = require(path.resolve(__dirname, 'util')),
   assert = require('assert'),
   nemo = {};
-
+var config = require("/config/config");
 describe('nemo-view @verySimple@', function () {
   before(function (done) {
-    //allure.addEnvironment("host", config.data);
+    allure.addEnvironment("host", config.data);
     nemo = Nemo(done);
   });
   after(function (done) {
