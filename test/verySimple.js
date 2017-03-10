@@ -9,6 +9,7 @@ var Nemo = require('nemo'),
 
 describe('nemo-view @verySimple@', function () {
   before(function (done) {
+    //allure.addEnvironment("host", config.data);
     nemo = Nemo(done);
   });
   after(function (done) {

@@ -1,0 +1,4 @@
+npm install
+node_modules/.bin/mocha --grep @verySimple -t 60s --reporter mocha-allure-reporter
+allure generate allure-results
+allure report open

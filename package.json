@@ -19,11 +19,14 @@
     "shush": "^1.0.0"
   },
   "devDependencies": {
+    "allure-commandline": "^1.5.0",
     "async": "^1.0.0",
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-simple-mocha": "~0.4.0",
-    "mocha": "^2",
+    "mocha": "^2.3.0",
+    "mocha-allure-reporter": "^1.2.4",
+    "mocha-multi": "^0.7.2",
     "nconf": "*",
     "nemo": "^2.0.0"
   },
